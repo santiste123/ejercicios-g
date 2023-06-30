@@ -1,0 +1,86 @@
+body {
+    background-color:#173300
+}
+
+#general {
+    width: 900px;
+    height: 550px;
+    margin-left: 329px;
+
+}
+
+#titulo {
+    width: 700px;
+}
+
+#titulo h1 {
+    color: #9BED64;
+    width: 556px;
+    height: 100px;
+    text-align: center;
+    margin-left: 51px;
+
+
+}
+
+#contenedor {
+    width: 450px;
+    height: 550px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 100px;
+
+}
+
+#contenedor #cantidad {
+    padding-top: 12px;
+    padding-left: 10px;
+    color: #474747;
+    width: 100px;
+
+
+}
+#introducir{
+    width: 100%;
+    height: 44px;
+}
+
+#botontext{
+    width: 200px;
+}
+
+
+ #botontext input[type="text"] {
+    margin-top: 2px;
+    margin-left: 10px;
+    width :200px;
+    height: 20px;
+    float: left;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e7eaee;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 10px;
+
+  }
+  
+  .button:hover {
+    background-color: #ecf0f3;
+  }
+    
+
+.button img{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
+
+
+
+
+
