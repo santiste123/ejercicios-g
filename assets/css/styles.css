@@ -7,6 +7,7 @@
 
 }
 
+
 body {
     background-color: #173300
 }
@@ -29,7 +30,7 @@ body {
 #originQuantity label{
     font-family: "oxigen";
     font-weight:120;
-    font-size: 12px;
+    font-size: 17px;
    
     color: #585757;
     width: 100px;
@@ -63,23 +64,36 @@ body {
 
 }
 
+.enter , .enter2{
+    display: flex;
+}
 
-#textButton {
-	width: 241px;
-	height: 39px;
-	margin-top: 4px;
+#textButton   {
+	
+        width: 249px;
+        height: 50px;
+        margin-top: 7px;
+        border: solid 1px #7c7a7ac7;
+        margin-left: 22px;
+        border-radius: -7px;
+        
+        border-radius: 7px 0px 0px 7px;
+        border-right-color: transparent;
+    
 }
 
 
-#textButton input[type="text"]  {
-	margin-top: 2px;
-	margin-left: 17px;
-	width: 217px;
-	height: 39px;
+#textButton input[type="text"]   {
+	margin-top: 0px;
+	margin-left: 1px;
+	width: 243px;
+	height: 43px;
 	float: left;
-	border-radius: 7px;
-	border: solid 1px #969292;
+	
+	border: none;
+	background-color: transparent;
 }
+
     
 
 .button {
@@ -103,6 +117,48 @@ body {
     height: 15px;
     border-radius: 100px;
 }
+#selectorList1 img{
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+
+}
+
+
+#selectorList1 ul a img{
+   
+   
+        width: 19px;
+        height: 18px;
+        border-radius: 7px;
+    
+
+}
+#selectorList1 ul  a {
+    text-decoration: none;
+
+}
+
+#selectorList1{
+	border: solid 1px #ccc;
+	margin-top: 7px;
+	margin-left: -18px;
+	width: 132px;
+	height: 50px;
+	float: left;
+	border-radius: 7px;
+	border: solid 1px #969292;
+}
+
+#selectorList1 ul{
+    list-style: none;
+    margin-top: 2px;
+    
+
+}
+
+
+
 
 
 
